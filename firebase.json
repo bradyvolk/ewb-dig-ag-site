@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "ewb-dig-ag-site/build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
