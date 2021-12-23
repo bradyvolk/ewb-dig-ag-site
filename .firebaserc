@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "ewb-dig-ag-site-bvv4"
+    "default": "dig-ag-website-2bce1",
+    "production": "dig-ag-website-2bce1"
   }
 }
