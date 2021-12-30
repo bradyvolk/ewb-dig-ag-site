@@ -54,3 +54,13 @@ You Can add these settings to your `settings.json` to ensure the Prettier format
     "javascript": "html"
   }
 ```
+
+<br />
+<br />
+
+## Useful snippets
+
+- `rce` used to create a React class component
+- `rfce` used to create a React functional component
+- `rconst` used to create a constructor and state in React class component
+- `div` or any HTML tag name will automatically create the closing tag and add the chevrons
