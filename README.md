@@ -1,5 +1,7 @@
 # Dig Ag React App
 
+## Building, Deploying, Developing
+
 To build the app:
 
 ```
