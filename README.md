@@ -12,6 +12,17 @@ And then, to deploy:
 firebase deploy
 ```
 
+And if you want to develop the app without building and deploying everytime, you can develop locally with:
+
+```
+npm run start
+```
+
+Then, anytime you save, your local version of the site will be updated.
+
+<br />
+<br />
+
 ## Libraries In Use
 
 As of now, we use a few libraries to make development easier.
@@ -19,6 +30,9 @@ As of now, we use a few libraries to make development easier.
 [Firebase](https://firebase.google.com/docs/hosting) is used to deploy the application to our domain name https://ewb-dig-ag.org.
 
 [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/) provides us with some basic components to maintain consistent style.
+
+<br />
+<br />
 
 ## Suggested VSCode Extensions
 
