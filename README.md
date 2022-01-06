@@ -64,3 +64,4 @@ You Can add these settings to your `settings.json` to ensure the Prettier format
 - `rfce` used to create a React functional component
 - `rconst` used to create a constructor and state in React class component
 - `div` or any HTML tag name will automatically create the closing tag and add the chevrons
+- `imr` or `imrc` to give the necessary import line for React and `imrc` also gives the import for component if you are making a class component
