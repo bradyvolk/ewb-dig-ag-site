@@ -2,6 +2,8 @@
 
 ## Building, Deploying, Developing
 
+Run these commands from within the `ewb-dig-ag-site` subfolder
+
 To build the app:
 
 ```
@@ -32,6 +34,8 @@ As of now, we use a few libraries to make development easier.
 [Firebase](https://firebase.google.com/docs/hosting) is used to deploy the application to our domain name https://ewb-dig-ag.org.
 
 [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/) provides us with some basic components to maintain consistent style.
+
+[Styled Components](https://github.com/styled-components/styled-components) is used to make styling sections of content and components easier
 
 <br />
 <br />
