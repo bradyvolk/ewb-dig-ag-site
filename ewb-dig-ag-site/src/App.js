@@ -3,6 +3,8 @@ import NavContent from "./components/NavContent";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AccordionContent from "./components/AccordionContent";
 import styled from "styled-components";
+import CarouselContent from "./components/CarouselContent";
+// import Container from "react-bootstrap/esm/Container";
 
 function App() {
   // Trying out some styled components here
@@ -12,17 +14,25 @@ function App() {
     color: #86a1d1;
     padding-bottom: 2em;
   `;
-  const Wrapper = styled.section`
+  const WideWrapper = styled.section`
     padding: 3em;
+    background: #f7faff;
+  `;
+
+  const Wrapper = styled.section`
+    padding: 3em 20em;
     background: #f7faff;
   `;
 
   return (
     <div className="App">
       <NavContent></NavContent>
-      <Wrapper>
+      <WideWrapper>
         <Title>This is a styled section made with Styled Components!</Title>
-        <AccordionContent></AccordionContent>
+        <AccordionContent />
+      </WideWrapper>
+      <Wrapper>
+        <CarouselContent />
       </Wrapper>
     </div>
   );
