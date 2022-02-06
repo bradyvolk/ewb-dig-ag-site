@@ -16,12 +16,12 @@ function App() {
   `;
   const WideWrapper = styled.section`
     padding: 3em;
-    background: #f7faff;
+    background: #fcfdff;
   `;
 
   const Wrapper = styled.section`
     padding: 3em 20em;
-    background: #f7faff;
+    background: #fcfdff;
   `;
 
   return (
