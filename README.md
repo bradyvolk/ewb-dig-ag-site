@@ -72,31 +72,32 @@ You Can add these settings to your `settings.json` to ensure the Prettier format
 
 ## Development Process (and Github command help)
 
-1. To check current branch:
+1. To check current branch and to checkout `main`:
 
 ```
-git branch
-```
-
-2. To create new branch and navigate to new branch (-b means create new branch):
-
-```
-git checkout -b NEWBRANCHNAME
-```
-
-3.
-
-```
+git branch 
+git checkout main
 git pull
 ```
 
-4. Make changes in new branch:
 
-5. add commit and push your changes:
+2. To create new branch while `main` is checked out (-b means create new branch):
 
 ```
-git add
-git commit "m"
+git checkout -b <ISSUEID#_branch-name>
+git pull
+
+```
+
+
+
+4. Make changes in new branch:
+
+5. Add commit and push your changes:
+
+```
+git add <path-to-files-you-changed>
+git commit -m "Insert short commit message that answers question 'this commit will do what?'"
 git push
 ```
 
