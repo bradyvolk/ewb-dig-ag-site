@@ -69,3 +69,45 @@ You Can add these settings to your `settings.json` to ensure the Prettier format
 - `rconst` used to create a constructor and state in React class component
 - `div` or any HTML tag name will automatically create the closing tag and add the chevrons
 - `imr` or `imrc` to give the necessary import line for React and `imrc` also gives the import for component if you are making a class component
+
+## Development Process (and Github command help)
+
+1. To check current branch:
+
+```
+git branch
+```
+
+2. To create new branch and navigate to new branch (-b means create new branch):
+
+```
+git checkout -b NEWBRANCHNAME
+```
+
+3.
+
+```
+git pull
+```
+
+4. Make changes in new branch:
+
+5. add commit and push your changes:
+
+```
+git add
+git commit "m"
+git push
+```
+
+6. Push upstream
+
+```
+git push --set-upstream origin branchname
+```
+
+- once command above is run (step 6), the URL for pull request
+  will appear in command line output. Navigate to Pull Request page using URL.
+- Make sure you are comparing your new branch to the main branch (main should
+  be on the left hand side of the arrow)
+- Then request reviewers (located on the right side of the UI)
