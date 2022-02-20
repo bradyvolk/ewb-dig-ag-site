@@ -101,10 +101,10 @@ git commit -m "Insert short commit message that answers question 'this commit wi
 git push
 ```
 
-6. Push upstream
+6. If your upstream isn't set, when you run `git push` in step 5, it will suggest some command like the one below to set your upstream and push to it:
 
 ```
-git push --set-upstream origin branchname
+git push --set-upstream origin <insert your branch name>
 ```
 
 - once command above is run (step 6), the URL for pull request
