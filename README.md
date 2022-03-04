@@ -85,8 +85,6 @@ git pull
 
 ```
 git checkout -b <ISSUEID#_branch-name>
-git pull
-
 ```
 
 
