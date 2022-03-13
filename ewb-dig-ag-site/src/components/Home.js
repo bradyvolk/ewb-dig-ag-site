@@ -11,19 +11,19 @@ const Title = styled.h1`
   padding-bottom: 2em;
 `;
 
-const WideWrapper = styled.section`
-  padding: 3em;
-  background: #fcfdff;
-`;
-
 function Home() {
   return (
     <div>
-      <WideWrapper>
-        <Title>This is a styled section made with Styled Components!</Title>
-        <AccordionContent />
-      </WideWrapper>
       <CarouselContent />
+      <Title>What we’re about:</Title>
+      <p>
+        Outbreaks of plant diseases, often left undetected, can be devastating
+        for a local economy in Sub-Saharan Africa. To aid farmers, Engineers
+        Without Borders at Cornell is building an airborne drone and a ground
+        rover to assess large plots of crop fields real-time. The drone will
+        provide a large aerial assessment of overall health which will then help
+        the rover survey flagged parts for diseases underneath the canopy.
+      </p>
     </div>
   );
 }
