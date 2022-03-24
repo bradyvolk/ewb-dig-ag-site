@@ -71,6 +71,9 @@ You Can add these settings to your `settings.json` to ensure the Prettier format
 - `div` or any HTML tag name will automatically create the closing tag and add the chevrons
 - `imr` or `imrc` to give the necessary import line for React and `imrc` also gives the import for component if you are making a class component
 
+<br />
+<br />
+
 ## Development Process (and Github command help)
 
 1. To check current branch and to checkout `main`:
