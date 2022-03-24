@@ -45,6 +45,7 @@ As of now, we use a few libraries to make development easier.
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Simple React Snippets](https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets)
 - [Emmet HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
+- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
 
 You Can add these settings to your `settings.json` to ensure the Prettier formatting and Emmet snippets work correctly:
 
