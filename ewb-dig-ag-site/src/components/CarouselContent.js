@@ -11,14 +11,12 @@ const StyledImage = styled(Image)`
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
 `;
 
 const StyledCarouselItem = styled(Carousel.Item)`
   width: 100%;
-  height: 500px; 
+  height: 500px;
   overflow: hidden;
-}
 `;
 
 export default function CarouselContent() {

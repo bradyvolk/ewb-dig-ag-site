@@ -8,7 +8,7 @@ export default function NavContent() {
     <div>
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">EWB Digital Agirculture</Navbar.Brand>
+          <Navbar.Brand href="/">EWB Digital Agirculture</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/About">About</Nav.Link>
