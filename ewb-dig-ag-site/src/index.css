@@ -5,22 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-y: scroll;
-}
-
-body::-webkit-scrollbar {
-  width: 12px;
-}
-
-body::-webkit-scrollbar-track {
-  background: #f0f0f0;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #b5b5ba;
-  border-radius: 20px;
-  border: 3px solid #cccfff;
-  opacity: 20%;
+  overflow-y: auto;
 }
 
 code {
