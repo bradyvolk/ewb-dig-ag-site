@@ -1,29 +1,16 @@
 import React from "react";
-import styled from "styled-components";
-import AccordionContent from "./AccordionContent";
 import CarouselContent from "./CarouselContent";
 import Card from "react-bootstrap/Card";
-
-// Trying out some styled components here
-const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: #86a1d1;
-  padding-bottom: 2em;
-`;
-
-const Container = styled.div`
-  padding: 2rem 12%;
-`;
+import { CardContainer } from "./shared/Div.styles";
 
 function Home() {
   return (
     <div>
-      <Container>
+      <CardContainer>
         <CarouselContent />
-      </Container>
+      </CardContainer>
 
-      <Container>
+      <CardContainer>
         <Card className="text-center">
           <Card.Body>
             <Card.Title>What we’re about:</Card.Title>
@@ -38,7 +25,7 @@ function Home() {
             </Card.Text>
           </Card.Body>
         </Card>
-      </Container>
+      </CardContainer>
     </div>
   );
 }
