@@ -1,7 +1,8 @@
 import "./App.css";
 import NavContent from "./components/NavContent";
 import Home from "./components/Home";
-import About from "./components/About";
+import Overview from "./components/Overview";
+import Team from "./components/Team";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {} from "./components/shared/Section.styles";
@@ -13,7 +14,9 @@ function App() {
         <NavContent></NavContent>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="overview" element={<Overview />} />
+          <Route path="team" element={<Team />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>
