@@ -6,7 +6,6 @@ import Team from "./components/Team";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {} from "./components/shared/Section.styles";
-import Contact from "./components/Contact";
 
 function App() {
   return (
