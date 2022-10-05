@@ -42,7 +42,7 @@ function Overview() {
                 resulting in an estimated $1.9 billion economic loss. NLB
                 presents as cigar-shaped lesions on the leaves of a maize crop.
                 As the disease grows bottom-up from the maize crop, it reduces
-                the crop’s yield and spreads to nearby crops. Typically, these
+                the crop's yield and spreads to nearby crops. Typically, these
                 lesions are visually identified by trained individuals to
                 determine where to deploy fungicides to prevent further NLB
                 spread, but this identification process is lengthy and subject
