@@ -1,5 +1,5 @@
 import React from "react";
-import tanzania_photo from "../assets/tanzania_drone_pic3.jpg";
+import feild_photo from "../assets/roverdronefeild.jpg";
 import nlb_photo from "../assets/nlb.jpg";
 import dig_ag_classic from "../assets/dig_ag_classic.png";
 import nathan_article_image from "../assets/Nathan_Research_Drone.png";
@@ -26,7 +26,7 @@ function Team() {
   return (
     <div>
       <Container>
-        <CoverImage className="d-block w-100" src={tanzania_photo} />
+        <CoverImage className="d-block w-100" src={feild_photo} />
         <Overlay>
           <Title> The Team </Title>
         </Overlay>
