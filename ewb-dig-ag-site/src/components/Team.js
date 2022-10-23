@@ -1,7 +1,21 @@
 import React from "react";
 import tanzania_photo from "../assets/tanzania_drone_pic3.jpg";
-import nlb_photo from "../assets/nlb.jpg";
-import dig_ag_classic from "../assets/dig_ag_classic.png";
+
+import sunnyImage from "../assets/Sunny-modified.png";
+import alexImage from "../assets/Alex-modified.png";
+import alishaImage from "../assets/Alisha-modified.png";
+import bradyImage from "../assets/Brady-modified.png";
+import corbanImage from "../assets/Corban-modified.png";
+import crystalImage from "../assets/Crystal-modified.png";
+import jasonImage from "../assets/Jason-modified.png";
+import jessicaImage from "../assets/Jessica-modified.png";
+import juhiImage from "../assets/Juhi-modified.png";
+import nathanImage from "../assets/Nathan-modified.png";
+import nicholasImage from "../assets/Nicholas-modified.png";
+import nithinImage from "../assets/Nithin-modified.png";
+import raginiImage from "../assets/Ragini-modified.png";
+import unknownImage from "../assets/Unknown-modified.png";
+
 import nathan_article_image from "../assets/Nathan_Research_Drone.png";
 import styled from "styled-components";
 import Image from "react-bootstrap/Image";
@@ -83,6 +97,20 @@ function Team() {
           </Column>
         </Row>
       </OddSection>
+      <EvenSection>
+        <Row>
+          <Column>
+            <ContentContainer>
+              <Image width={150} height={150} src={sunnyImage}></Image>
+            </ContentContainer>
+          </Column>
+          <Column>
+            <ContentContainer>
+              <Image width={150} height={150} src={sunnyImage}></Image>
+            </ContentContainer>
+          </Column>
+        </Row>
+      </EvenSection>
     </div>
   );
 }
