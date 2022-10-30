@@ -99,6 +99,14 @@ function Team() {
       </OddSection>
       <EvenSection>
         <Row>
+          <p></p>
+        </Row>
+        <Row>
+          <Column>
+            <PrimaryTitle> Background and History </PrimaryTitle>
+          </Column>
+        </Row>
+        <Row>
           <Column>
             <ContentContainer>
               <img
