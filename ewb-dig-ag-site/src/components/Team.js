@@ -17,6 +17,7 @@ import nicholasImage from "../assets/Nicholas-modified.png";
 import nithinImage from "../assets/Nithin-modified.png";
 import raginiImage from "../assets/Ragini-modified.png";
 import unknownImage from "../assets/Unknown-modified.png";
+import Figure from "react-bootstrap/Figure";
 
 import {
   Row,
@@ -100,110 +101,218 @@ function Team() {
         <Row>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={nathanImage}></Image>
+              <img
+                src={nathanImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">
+                Nathan Zhang
+              </figcaption>
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={alexImage}></Image>
+              <img
+                src={alexImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Alex</figcaption>
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={alishaImage}></Image>
+              <img
+                src={alishaImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Alisha</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={bradyImage}></Image>
+              <img
+                src={bradyImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Brady</figcaption>
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={nicholasImage}></Image>
+              <img
+                src={nicholasImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">
+                Nicholas
+              </figcaption>
             </ContentContainer>
           </Column>
         </Row>
         <Row>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={nithinImage}></Image>
+              <img
+                src={nithinImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Nithin</figcaption>
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={raginiImage}></Image>
+              <img
+                src={raginiImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Ragini</figcaption>
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={jasonImage}></Image>
+              <img
+                src={jasonImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Jason</figcaption>
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={sunnyImage}></Image>
+              <img
+                src={sunnyImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Sunny</figcaption>
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={jessicaImage}></Image>
+              <img
+                src={jessicaImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">
+                Jessica
+              </figcaption>
             </ContentContainer>
           </Column>
         </Row>
         <Row>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={juhiImage}></Image>
+              <img
+                src={juhiImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Juhi</figcaption>
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={corbanImage}></Image>
+              <img
+                src={corbanImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Corban</figcaption>
             </ContentContainer>
           </Column>
 
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={crystalImage}></Image>
+              <img
+                src={crystalImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">
+                Crystal
+              </figcaption>
             </ContentContainer>
           </Column>
 
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={unknownImage}></Image>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Name</figcaption>
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={unknownImage}></Image>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
             </ContentContainer>
           </Column>
         </Row>
         <Row>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={unknownImage}></Image>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={unknownImage}></Image>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={unknownImage}></Image>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={unknownImage}></Image>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={150} height={150} src={unknownImage}></Image>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
             </ContentContainer>
           </Column>
         </Row>
