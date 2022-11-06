@@ -15,13 +15,17 @@ function Home() {
           <Card.Body>
             <Card.Title>What we’re about:</Card.Title>
             <Card.Text>
-              Outbreaks of plant diseases, often left undetected, can be
-              devastating for a local economy in Sub-Saharan Africa. To aid
-              farmers, Engineers Without Borders at Cornell is building an
-              airborne drone and a ground rover to assess large plots of crop
-              fields real-time. The drone will provide a large aerial assessment
-              of overall health which will then help the rover survey flagged
-              parts for diseases underneath the canopy.
+              Undetected outbreaks of disease in crops can be devastating for
+              local economies in Sub-Saharan Africa. Northern Leaf Blight (NLB)
+              is an example of one of these diseases that is caused by a
+              specific type of fungus. NLB spreads from plant to plant,
+              rendering large portions of maize crops useless. To aid farmers,
+              Engineers Without Borders at Cornell is currently building a drone
+              and a ground rover in order to assess large plots of crop fields
+              for NLB in real-time. The drone will detect infrared radiation to
+              provide a large aerial assessment of overall field health, which
+              will direct the rover to survey flagged sections of the field for
+              diseases underneath the canopy.
             </Card.Text>
           </Card.Body>
         </Card>

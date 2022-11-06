@@ -52,31 +52,27 @@ function Team() {
               <PrimaryTitle> Background and History </PrimaryTitle>
               <TextContainer>
                 Cornell Engineers Without Borders is a Cornell University
-                project team affiliated with the National Engineers Without
+                project team affiliated with the national Engineers Without
                 Borders Organization. The Digital Agriculture Team, led by
-                undergraduate student Jessica Henson, is a part of Cornell's EWB
-                chapter.
+                Jessica Henson, is a part of Cornell's EWB chapter.
               </TextContainer>
               <TextContainer>
                 The Digital Agriculture team is split into two subteams:
                 hardware and software. The hardware team focuses on the
                 construction and operation of the rover and drone, and the
-                software team focuses on machine learning, this website, and
-                applications for interfacing with the hardware.
+                software team focuses on the machine learning algorithms, this
+                website, and applications for interfacing with the hardware and
+                datasets.
               </TextContainer>
               <TextContainer>
                 The idea to use digital agriculture tools to identify northern
-                leaf blight (NLB) disease in maize crop was first explored on
-                campus by undergraduate Nathan Zheng ('21), postdoctoral
-                researcher Ethan Stewart and Professor Michael Gore in the
-                summer of 2019. After a strong research proposal paper, the
-                project received grant money. In need of contributors, the
-                project was quickly adopted by Engineers Without Borders at
-                Cornell and was established as the Digital Agriculture Subteam.
-                As semesters have past, older members graduate and new members
-                join, the common goal has not changed -- to help farmers
-                identifty NLB early on at unprecedented efficiency and
-                simplicity
+                leaf blight disease in maize crop was first explored on campus
+                by undergraduate Nathan Zheng (‘21), postdoctoral researcher
+                Ethan Stewart and Professor Michael Gore in the summer of 2019.
+                After a strong research proposal paper, the project received a
+                grant from the Shen Fund for Social Impact. It was then adopted
+                by Engineers Without Borders at Cornell and became known as the
+                Digital Agriculture sub-team.
               </TextContainer>
               <TextContainer>
                 <h6>References</h6>

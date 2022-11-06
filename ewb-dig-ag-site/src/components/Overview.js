@@ -40,13 +40,13 @@ function Overview() {
                 (Oerke, 2006). In 2015, one-fourth of all estimated yield losses
                 from disease were attributed to Northern Leaf Blight (NLB),
                 resulting in an estimated $1.9 billion economic loss. NLB
-                presents as cigar-shaped lesions on the leaves of a maize crop.
-                As the disease grows bottom-up from the maize crop, it reduces
-                the crop's yield and spreads to nearby crops. Typically, these
+                presents itself as cigar-shaped lesions on the leaves of maize
+                crops. Growing bottom-up from the plants, the disease reduces
+                maize yield by spreading to nearby plants. Typically, these
                 lesions are visually identified by trained individuals to
                 determine where to deploy fungicides to prevent further NLB
-                spread, but this identification process is lengthy and subject
-                to observer biases.
+                spread. However, this identification process is lengthy in large
+                fields and subject to observer biases.
               </TextContainer>
               <TextContainer>
                 <h6>References</h6>
@@ -78,23 +78,19 @@ function Overview() {
                 new outbreaks, and strategic control of fungicide deployment.
                 Our goal is to build a non-commercialized, open-source system
                 that can employ deep learning algorithms to detect disease
-                symptoms before the disease spreads.We believe that once
-                implemented, our proposed system will be the first innovative
-                system to utilize UGVs in parallel with UAVs to detect plant
-                disease, providing an early warning detection system for
-                researchers and farmers.
+                symptoms before the disease spreads.
               </TextContainer>
 
               <TextContainer>
-                Initially, the drone or UAV scans the field taking photos which
-                are then run through the machine learning algorithm. This will
-                indicate areas of possible outbreaks. At each of these
-                locations, the rover or UGV will go and take more pictures which
-                are then run through a machine learning algorithm as well to
-                detect areas that are affected by NLB. Then the data from the
-                rover is sent to an interface so that the user can view where in
-                the field there is NLB. The user can then proceed to
-                appropriately address the threat.
+                Initially, the drone (UAV) scans the field taking infrared
+                photos. These infrared “birds eye view” photos will indicate
+                areas of possible outbreaks. At each of these locations, the
+                rover (UGV) will take close up images of the maize crop leaves.
+                These images are then run through a machine learning algorithm
+                to detect NLB lesions. Finally, the data from the rover is sent
+                to an interface which will help the user pinpoint where NLB
+                exists in the field at the individual crop level. The user can
+                then proceed to appropriately address the threat.
               </TextContainer>
 
               <TextContainer>
