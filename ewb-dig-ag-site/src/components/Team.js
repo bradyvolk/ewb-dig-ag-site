@@ -102,8 +102,11 @@ function Team() {
           <p></p>
         </Row>
         <Row>
+          <p></p>
+        </Row>
+        <Row>
           <Column>
-            <PrimaryTitle> Background and History </PrimaryTitle>
+            <PrimaryTitle> Team Members </PrimaryTitle>
           </Column>
         </Row>
         <Row>
@@ -161,8 +164,6 @@ function Team() {
               </figcaption>
             </ContentContainer>
           </Column>
-        </Row>
-        <Row>
           <Column>
             <ContentContainer>
               <img
@@ -173,6 +174,8 @@ function Team() {
               <figcaption class="figure-caption text-center">Nithin</figcaption>
             </ContentContainer>
           </Column>
+        </Row>
+        <Row>
           <Column>
             <ContentContainer>
               <img
@@ -215,8 +218,6 @@ function Team() {
               </figcaption>
             </ContentContainer>
           </Column>
-        </Row>
-        <Row>
           <Column>
             <ContentContainer>
               <img
@@ -237,7 +238,8 @@ function Team() {
               <figcaption class="figure-caption text-center">Corban</figcaption>
             </ContentContainer>
           </Column>
-
+        </Row>
+        <Row>
           <Column>
             <ContentContainer>
               <img
@@ -250,7 +252,6 @@ function Team() {
               </figcaption>
             </ContentContainer>
           </Column>
-
           <Column>
             <ContentContainer>
               <img
@@ -259,28 +260,6 @@ function Team() {
                 class="figure-img img-fluid rounded-circle"
               />
               <figcaption class="figure-caption text-center">Name</figcaption>
-            </ContentContainer>
-          </Column>
-          <Column>
-            <ContentContainer>
-              <img
-                src={unknownImage}
-                alt="missing"
-                class="figure-img img-fluid rounded-circle"
-              />
-              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
-            </ContentContainer>
-          </Column>
-        </Row>
-        <Row>
-          <Column>
-            <ContentContainer>
-              <img
-                src={unknownImage}
-                alt="missing"
-                class="figure-img img-fluid rounded-circle"
-              />
-              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
