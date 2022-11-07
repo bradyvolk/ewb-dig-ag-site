@@ -14,6 +14,7 @@ export default function NavContent() {
             <Nav.Link href="/Overview">Overview</Nav.Link>
             <Nav.Link href="/Hardware">Hardware</Nav.Link>
             <Nav.Link href="/Software">Software</Nav.Link>
+            <Nav.Link href="/Process">Process</Nav.Link>
             <Nav.Link href="/Team">Team</Nav.Link>
             <Nav.Link href="/Contact">Contact</Nav.Link>
           </Nav>
