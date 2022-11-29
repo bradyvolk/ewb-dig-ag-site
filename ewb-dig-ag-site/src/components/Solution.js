@@ -31,16 +31,84 @@ const CoverImage = styled(Image)`
   object-position: 20% 10%;
 `;
 
-function Process() {
+function Solution() {
   return (
     <div>
       <Container>
         <CoverImage className="d-block w-100" src={tanzania_photo} />
         <Overlay>
-          <Title> Process </Title>
+          <Title> Our Solution </Title>
         </Overlay>
       </Container>
       <OddSection>
+        <Row>
+          <Column>
+            <ContentContainer>
+              <PrimaryTitle> Solution Overview </PrimaryTitle>
+            </ContentContainer>
+          </Column>
+        </Row>
+      </OddSection>
+      <OddSection>
+        <Row>
+          <Column>
+            <ContentContainer>
+              <TextContainer>
+                The Digital Agriculture Project will design and implement an
+                autonomous system consisting of a high-throughput Unmanned
+                Aerial Vehicle (UAV) and an Unmanned Ground Vehicle (UGV) that
+                will work side-by-side with farmers to assess levels of crop
+                disease. With early detection of crop diseases, we can aid
+                farmers with disease-resistant breeding, monitoring of crops for
+                new outbreaks, and strategic control of fungicide deployment.
+                Our goal is to build a non-commercialized, open-source system
+                that can employ deep learning algorithms to detect disease
+                symptoms before the disease spreads.
+              </TextContainer>
+
+              <TextContainer>
+                Initially, the drone (UAV) scans the field taking infrared
+                photos. These infrared “birds eye view” photos will indicate
+                areas of possible outbreaks. At each of these locations, the
+                rover (UGV) will take close up images of the maize crop leaves.
+                These images are then run through a machine learning algorithm
+                to detect NLB lesions. Finally, the data from the rover is sent
+                to an interface which will help the user pinpoint where NLB
+                exists in the field at the individual crop level. The user can
+                then proceed to appropriately address the threat.
+              </TextContainer>
+
+              <TextContainer>
+                We believe that once implemented, our proposed system will be
+                the first innovative system to utilize UGVs in parallel with
+                UAVs to detect plant disease, providing an early warning
+                detection system for researchers and farmers.
+              </TextContainer>
+            </ContentContainer>
+          </Column>
+          <Column>
+            <ContentContainer>
+              <Image width={700} height={400} src={dig_ag_classic}></Image>
+            </ContentContainer>
+          </Column>
+        </Row>
+      </OddSection>
+      {/* <Container>
+        <CoverImage className="d-block w-100" src={tanzania_photo} />
+        <Overlay>
+          <Title> Our Solution (step-by-step) </Title>
+        </Overlay>
+      </Container> */}
+      <EvenSection>
+        <Row>
+          <Column>
+            <ContentContainer>
+              <PrimaryTitle> Procedure </PrimaryTitle>
+            </ContentContainer>
+          </Column>
+        </Row>
+      </EvenSection>
+      <EvenSection>
         <Row>
           <Column>
             <ContentContainer>
@@ -59,8 +127,8 @@ function Process() {
             </ContentContainer>
           </Column>
         </Row>
-      </OddSection>
-      <EvenSection>
+      </EvenSection>
+      <OddSection>
         <Row>
           <Column>
             <ContentContainer>
@@ -84,8 +152,8 @@ function Process() {
             </ContentContainer>
           </Column>
         </Row>
-      </EvenSection>
-      <OddSection>
+      </OddSection>
+      <EvenSection>
         <Row>
           <Column>
             <ContentContainer>
@@ -113,8 +181,8 @@ function Process() {
             </ContentContainer>
           </Column>
         </Row>
-      </OddSection>
-      <EvenSection>
+      </EvenSection>
+      <OddSection>
         <Row>
           <Column>
             <ContentContainer>
@@ -135,8 +203,8 @@ function Process() {
             </ContentContainer>
           </Column>
         </Row>
-      </EvenSection>
-      <OddSection>
+      </OddSection>
+      <EvenSection>
         <Row>
           <Column>
             <ContentContainer>
@@ -166,8 +234,8 @@ function Process() {
             </ContentContainer>
           </Column>
         </Row>
-      </OddSection>
-      <EvenSection>
+      </EvenSection>
+      <OddSection>
         <Row>
           <Column>
             <ContentContainer>
@@ -185,9 +253,9 @@ function Process() {
             </ContentContainer>
           </Column>
         </Row>
-      </EvenSection>
+      </OddSection>
     </div>
   );
 }
 
-export default Process;
+export default Solution;

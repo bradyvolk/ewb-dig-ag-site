@@ -11,10 +11,10 @@ export default function NavContent() {
           <Navbar.Brand href="/">EWB Digital Agirculture</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/Overview">Overview</Nav.Link>
+            <Nav.Link href="/NLB">NLB</Nav.Link>
+            <Nav.Link href="/Solution">Solution</Nav.Link>
             <Nav.Link href="/Hardware">Hardware</Nav.Link>
             <Nav.Link href="/Software">Software</Nav.Link>
-            <Nav.Link href="/Process">Process</Nav.Link>
             <Nav.Link href="/Team">Team</Nav.Link>
             <Nav.Link href="/Contact">Contact</Nav.Link>
           </Nav>
