@@ -91,11 +91,6 @@ function Solution() {
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={500} height={250} src={Step2_NDVI}></Image>
-            </ContentContainer>
-          </Column>
-          <Column>
-            <ContentContainer>
               <Image width={500} height={250} src={step2_NDVI_Formula}></Image>
             </ContentContainer>
           </Column>
@@ -120,12 +115,7 @@ function Solution() {
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={400} height={250} src={step3_path_input}></Image>
-            </ContentContainer>
-          </Column>
-          <Column>
-            <ContentContainer>
-              <Image width={400} height={250} src={step3_path_drawing}></Image>
+              <Image width={500} height={250} src={step3_path_drawing}></Image>
             </ContentContainer>
           </Column>
         </Row>
@@ -169,14 +159,9 @@ function Solution() {
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={400} height={200} src={step5}></Image>
-            </ContentContainer>
-          </Column>
-          <Column>
-            <ContentContainer>
               <Image
-                width={400}
-                height={200}
+                width={500}
+                height={250}
                 src={step5_NLB_annotations}
               ></Image>
             </ContentContainer>
