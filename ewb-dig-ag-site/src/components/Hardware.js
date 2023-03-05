@@ -123,7 +123,7 @@ function Hardware() {
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={500} height={250} src={step3_path_drawing}></Image>
+              <Image width={500} height={250} src={pi}></Image>
             </ContentContainer>
           </Column>
         </Row>
