@@ -8,7 +8,6 @@ import step2_NDVI_Formula from "../assets/step2_NDVI_Formula.png";
 import Step2_NDVI from "../assets/Step2_NDVI.png";
 import step3_path_input from "../assets/step3_path_input.png";
 import step3_path_drawing from "../assets/step3_path_drawing.png";
-import pi from "../assets/pi.jpg";
 import nasa_rover from "../assets/MRNASA.jpg";
 import step4_rover from "../assets/step4_rover.png";
 import rover_image_2 from "../assets/roverSide.jpg";
