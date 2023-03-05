@@ -9,7 +9,7 @@ import Step2_NDVI from "../assets/Step2_NDVI.png";
 import step3_path_input from "../assets/step3_path_input.png";
 import step3_path_drawing from "../assets/step3_path_drawing.png";
 import step4_rover from "../assets/step4_rover.png";
-import rover_image_2 from "../assets/newRoverImage.png";
+import rover_image_2 from "../assets/roverSide.jpg";
 import step5 from "../assets/step5.png";
 import step5_NLB_annotations from "../assets/step5_NLB_annotations.png";
 import step6_fungicide from "../assets/step6_fungicide.jpg";
@@ -85,7 +85,7 @@ function Hardware() {
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={500} height={250} src={rover_image_2}></Image>
+              <Image width={400} height={250} src={rover_image_2}></Image>
             </ContentContainer>
           </Column>
         </Row>
