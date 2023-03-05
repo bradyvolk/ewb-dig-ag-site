@@ -5,6 +5,7 @@ import NLB from "./components/NLB";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
 import Solution from "./components/Solution";
+import Hardware from "./components/Hardware";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {} from "./components/shared/Section.styles";
@@ -20,6 +21,7 @@ function App() {
           <Route path="solution" element={<Solution />} />
           <Route path="team" element={<Team />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="hardware" element={<Hardware />} />
         </Routes>
       </BrowserRouter>
     </div>
