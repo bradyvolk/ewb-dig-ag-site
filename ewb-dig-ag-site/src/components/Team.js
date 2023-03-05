@@ -125,7 +125,9 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Alex</figcaption>
+              <figcaption class="figure-caption text-center">
+                Alex LoCicero
+              </figcaption>
             </ContentContainer>
           </Column>
           <Column>
@@ -135,7 +137,9 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Alisha</figcaption>{" "}
+              <figcaption class="figure-caption text-center">
+                Alisha Kewalramani
+              </figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
@@ -145,7 +149,9 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Brady</figcaption>
+              <figcaption class="figure-caption text-center">
+                Brady Volkman
+              </figcaption>
             </ContentContainer>
           </Column>
           <Column>
@@ -156,7 +162,7 @@ function Team() {
                 class="figure-img img-fluid rounded-circle"
               />
               <figcaption class="figure-caption text-center">
-                Nicholas
+                Nicholas George
               </figcaption>
             </ContentContainer>
           </Column>
@@ -167,7 +173,9 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Nithin</figcaption>
+              <figcaption class="figure-caption text-center">
+                Nithin Dass
+              </figcaption>
             </ContentContainer>
           </Column>
         </Row>
@@ -179,7 +187,9 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Ragini</figcaption>
+              <figcaption class="figure-caption text-center">
+                Ragini Balachandran
+              </figcaption>
             </ContentContainer>
           </Column>
           <Column>
@@ -189,7 +199,9 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Jason</figcaption>
+              <figcaption class="figure-caption text-center">
+                Jason Pan
+              </figcaption>
             </ContentContainer>
           </Column>
           <Column>
@@ -199,7 +211,9 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Sunny</figcaption>
+              <figcaption class="figure-caption text-center">
+                Sunny Chavan
+              </figcaption>
             </ContentContainer>
           </Column>
           <Column>
@@ -210,7 +224,7 @@ function Team() {
                 class="figure-img img-fluid rounded-circle"
               />
               <figcaption class="figure-caption text-center">
-                Jessica
+                Jessica Henson
               </figcaption>
             </ContentContainer>
           </Column>
@@ -221,7 +235,9 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Juhi</figcaption>
+              <figcaption class="figure-caption text-center">
+                Juhi Shyamsukha
+              </figcaption>
             </ContentContainer>
           </Column>
           <Column>
@@ -231,7 +247,9 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Corban</figcaption>
+              <figcaption class="figure-caption text-center">
+                Corban Chiu
+              </figcaption>
             </ContentContainer>
           </Column>
         </Row>
@@ -244,7 +262,7 @@ function Team() {
                 class="figure-img img-fluid rounded-circle"
               />
               <figcaption class="figure-caption text-center">
-                Crystal
+                Crystal Shi
               </figcaption>
             </ContentContainer>
           </Column>
