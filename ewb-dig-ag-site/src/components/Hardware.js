@@ -65,8 +65,10 @@ function Hardware() {
           <Column>
             <ContentContainer>
               <TextContainer>
-                The rover build for this project is based off of the NASA Jet
-                Propulsion Laboratory Open Source Rover (NASA JPL OSR), for
+                The rover build for this project is based off of 
+                <a href="https://opensourcerover.jpl.nasa.gov/#!/home"> the NASA Jet Propulsion Laboratory Open Source Rover 
+                </a>
+                (NASA JPL OSR), for
                 which the code and build information can be found for free
                 online here. We chose to use this open-source design as it is
                 professional, well-maintained, documented, easily accessible,
