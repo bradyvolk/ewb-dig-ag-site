@@ -8,10 +8,10 @@ import step2_NDVI_Formula from "../assets/step2_NDVI_Formula.png";
 import Step2_NDVI from "../assets/Step2_NDVI.png";
 import step3_path_input from "../assets/step3_path_input.png";
 import step3_path_drawing from "../assets/step3_path_drawing.png";
-import pi from "../assets/pi.jpg";
 import nasa_rover from "../assets/MRNASA.jpg";
 import step4_rover from "../assets/step4_rover.png";
 import rover_image_2 from "../assets/roverSide.jpg";
+import pi from "../assets/pi.jpg";
 import step5 from "../assets/step5.png";
 import step5_NLB_annotations from "../assets/step5_NLB_annotations.png";
 import step6_fungicide from "../assets/step6_fungicide.jpg";
@@ -79,7 +79,7 @@ function Hardware() {
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={500} height={250} src={nasa_rover}></Image>
+              <Image width={400} height={250} src={nasa_rover}></Image>
             </ContentContainer>
           </Column>
         </Row>
@@ -123,7 +123,7 @@ function Hardware() {
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={500} height={250} src={pi}></Image>
+              <Image width={400} height={250} src={pi}></Image>
             </ContentContainer>
           </Column>
         </Row>
@@ -144,7 +144,7 @@ function Hardware() {
           </Column>
           <Column>
             <ContentContainer>
-              <Image width={500} height={250} src={step4_rover}></Image>
+              <Image width={400} height={250} src={step4_rover}></Image>
             </ContentContainer>
           </Column>
         </Row>
