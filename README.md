@@ -1,5 +1,9 @@
 # Dig Ag React App
 
+This website serves as a informational guide and documentation source for Digital Agriculture, a subteam within Cornell University's "Engineers Without Borders"
+Project team.
+
+
 ## Building, Deploying, Developing
 
 Run these commands from within the `ewb-dig-ag-site` subfolder
