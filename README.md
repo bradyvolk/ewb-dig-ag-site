@@ -1,8 +1,6 @@
 # Dig Ag React App
 
-This website serves as an informational guide and documentation source for Digital Agriculture, a subteam within Cornell University's "Engineers Without Borders"
-Project team.
-
+Digital Agriculture is a subteam within Cornell University's "Engineers Without Borders" Project Team. This website serves as an informational guide and documentation source for Digital Agriculture's project which is centered around combating Northern Leaf Blight (NLB) disease in maize crop. 
 
 ## Building, Deploying, Developing
 
