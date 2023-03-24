@@ -1,6 +1,6 @@
 # Dig Ag React App
 
-This website serves as a informational guide and documentation source for Digital Agriculture, a subteam within Cornell University's "Engineers Without Borders"
+This website serves as an informational guide and documentation source for Digital Agriculture, a subteam within Cornell University's "Engineers Without Borders"
 Project team.
 
 
