@@ -4,6 +4,7 @@ import nasa_rover from "../assets/MRNASA.jpg";
 import step4_rover from "../assets/step4_rover.png";
 import rover_image_2 from "../assets/roverSide.jpg";
 import pi from "../assets/pi.jpg";
+import { CardContainer } from "./shared/Div.styles";
 import styled from "styled-components";
 import Image from "react-bootstrap/Image";
 import step3_path_drawing from "../assets/step3_path_drawing.png";
@@ -42,16 +43,12 @@ function Software() {
         </Overlay>
       </Container> */}
       <EvenSection>
-        <Row>
-          <Column>
             <ContentContainer>
               <PrimaryTitle> Purpose </PrimaryTitle>
             </ContentContainer>
-          </Column>
-        </Row>
-        <TextContainer>
+        <ContentContainer>
         The software application provides three separate functionalities, each used in a specific step of the system. Broadly speaking, the combination of these features guides the user in pinpointing specific geo-coordinates in the farm field with a very high likelihood of NLB. 
-        </TextContainer>
+        </ContentContainer>
       </EvenSection>
       <EvenSection>
         <Row>
@@ -70,17 +67,22 @@ function Software() {
         <Row>
           <Column>
             <ContentContainer>
+            <TextContainer>
+              </TextContainer>
               <TextContainer>
-                INSERT TEXT HERE
+              As input, the user must upload the multispectral drone image of the farm field. 
+              The application will proceed to use the NDVI index to recognize regions that could potentially exhibit signs of Northern Leaf Blight (NLB) and the platform subsequently generates a modified image that highlights the identified regions. 
+              The output is this modified image.
               </TextContainer>
             </ContentContainer>
           </Column>
           <ContentContainer>
-              <PrimaryTitle> Functionality 1 </PrimaryTitle>
+              <PrimaryTitle> Functionality 1: NDVI Index 
+             </PrimaryTitle>
             </ContentContainer>
           <Column>
             <ContentContainer>
-              
+            <Image width={400} height={250} src={step3_path_drawing}></Image>
             </ContentContainer>
           </Column>
         </Row>
@@ -89,15 +91,19 @@ function Software() {
         <Row>
           <Column>
             <ContentContainer>
+            <TextContainer>
+              </TextContainer>
               <TextContainer>
-                INSERT TEXT HERE
+              As input, the user uploads the modified drone image with highlighted regions from the output of feature 1. The user can then leverage the “draw path” functionality to construct a path that the rover will eventually follow in the farm field. Once the user is done constructing the path, they can select the “Run” button which saves the geo-coordinates of the Rover’s path to a text file. The output is this modified image. 
               </TextContainer>
             </ContentContainer>
           </Column>
           <ContentContainer>
-              <PrimaryTitle> Functionality 2 </PrimaryTitle>
+              <PrimaryTitle> Functionality 2: Route Planning  </PrimaryTitle>
             </ContentContainer>
           <Column>
+          <TextContainer>
+              </TextContainer>
             <ContentContainer>
             <Image width={400} height={250} src={step3_path_drawing}></Image>
             </ContentContainer>
@@ -108,17 +114,19 @@ function Software() {
         <Row>
           <Column>
             <ContentContainer>
+            <TextContainer>
+              </TextContainer>
               <TextContainer>
-                INSERT TEXT HERE
+              As input, the user uploads a dataset of maize crop images obtained by the Rover. The application processes each image of the dataset through a Computer Vision Model which will tag images of maize crop that seems to contain NLB. Once the computation is complete, the application will produce and save a list of geo-coordinates pinpointing the exact locations where NLB is detected. The output is this list of geo-coordinates where NLB is detected. Note these geo-coordinates are exact locations, at the crop level, in the farm field. 
               </TextContainer>
             </ContentContainer>
           </Column>
           <ContentContainer>
-              <PrimaryTitle> Functionality 3 </PrimaryTitle>
+              <PrimaryTitle> Functionality 3: ML Model </PrimaryTitle>
             </ContentContainer>
           <Column>
             <ContentContainer>
-    
+            <Image width={400} height={250} src={step3_path_drawing}></Image>
             </ContentContainer>
           </Column>
         </Row>
