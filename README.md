@@ -1,5 +1,7 @@
 # Dig Ag React App
 
+Digital Agriculture is a subteam within Cornell University's "Engineers Without Borders" Project Team. Our current project is centered around leveraging Computer Vision to identify and combat Northern Leaf Blight (NLB) disease in maize crop. This website serves as an informational guide and documentation source for potential users of our system. 
+
 ## Building, Deploying, Developing
 
 Run these commands from within the `ewb-dig-ag-site` subfolder
