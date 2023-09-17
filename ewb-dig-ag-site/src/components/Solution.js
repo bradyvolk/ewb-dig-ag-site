@@ -11,6 +11,7 @@ import step4_rover from "../assets/step4_rover.png";
 import step5 from "../assets/step5.png";
 import step5_NLB_annotations from "../assets/step5_NLB_annotations.png";
 import step6_fungicide from "../assets/step6_fungicide.jpg";
+import styles from './css/solution.module.css';
 
 import styled from "styled-components";
 import Image from "react-bootstrap/Image";
@@ -59,7 +60,7 @@ function Solution() {
       <EvenSection>
         <Row>
           <Column>
-            <ContentContainer>
+            <ContentContainer className={styles.body}>
               <PrimaryTitle> Step 1 </PrimaryTitle>
               <TextContainer>
                 The drone (UAV), while flying above the crop field, takes
@@ -79,7 +80,7 @@ function Solution() {
       <OddSection>
         <Row>
           <Column>
-            <ContentContainer>
+            <ContentContainer className={styles.body}>
               <PrimaryTitle> Step 2 </PrimaryTitle>
               <TextContainer>
                 The drone images are then uploaded to the Digital Agriculture
@@ -99,7 +100,7 @@ function Solution() {
       <EvenSection>
         <Row>
           <Column>
-            <ContentContainer>
+            <ContentContainer className={styles.body}>
               <PrimaryTitle> Step 3 </PrimaryTitle>
               <TextContainer>
                 For each marked drone image, the Digital Agriculture application
@@ -123,7 +124,7 @@ function Solution() {
       <OddSection>
         <Row>
           <Column>
-            <ContentContainer>
+            <ContentContainer className={styles.body}>
               <PrimaryTitle> Step 4 </PrimaryTitle>
               <TextContainer>
                 The user then directs the rover in the crop field following the
@@ -145,7 +146,7 @@ function Solution() {
       <EvenSection>
         <Row>
           <Column>
-            <ContentContainer>
+            <ContentContainer className={styles.body}>
               <PrimaryTitle> Step 5 </PrimaryTitle>
               <TextContainer>
                 The up-close image dataset is uploaded to the Digital
@@ -171,7 +172,7 @@ function Solution() {
       <OddSection>
         <Row>
           <Column>
-            <ContentContainer>
+            <ContentContainer className={styles.body}>
               <PrimaryTitle> Step 6 </PrimaryTitle>
               <TextContainer>
                 The user can then travel to the specific places in the crop

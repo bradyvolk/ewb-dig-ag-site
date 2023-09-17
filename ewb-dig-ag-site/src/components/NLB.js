@@ -4,6 +4,7 @@ import nlb_photo from "../assets/nlb.jpg";
 import dig_ag_classic from "../assets/dig_ag_classic.png";
 import styled from "styled-components";
 import Image from "react-bootstrap/Image";
+import styles from './css/nlb.module.css';
 import {
   Row,
   Column,
@@ -31,7 +32,7 @@ function NLB() {
         </Overlay>
       </Container>
       <OddSection>
-        <Row>
+        <Row className={styles.body}>
           <Column>
             <ContentContainer>
               <PrimaryTitle>The Problem of NLB</PrimaryTitle>
@@ -50,9 +51,9 @@ function NLB() {
               </TextContainer>
               <TextContainer>
                 <h6>References</h6>
-                https://www.genomes2fields.org/docs/publications/tppj-2-1-190006.pdf
+                <h6 style ={{ fontSize: 12 }}>https://www.genomes2fields.org/docs/publications/tppj-2-1-190006.pdf
                 Oerke, E.-C. (2006). Centenary review: Crop losses to pests.
-                Journal of Agricultural Science. 144: 31-43.
+                Journal of Agricultural Science. 144: 31-43.</h6>
               </TextContainer>
             </ContentContainer>
           </Column>

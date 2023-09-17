@@ -53,8 +53,7 @@ function Team() {
               <TextContainer>
                 Cornell Engineers Without Borders is a Cornell University
                 project team affiliated with the national Engineers Without
-                Borders Organization. The Digital Agriculture Team, led by
-                Jessica Henson, is a part of Cornell's EWB chapter.
+                Borders Organization. 
               </TextContainer>
               <TextContainer>
                 The Digital Agriculture team is split into two subteams:
@@ -76,9 +75,9 @@ function Team() {
               </TextContainer>
               <TextContainer>
                 <h6>References</h6>
-                "By Land and Air, Students to Detect Crop Diseases with Tech."
+                <h6 style ={{ fontSize: 12 }}>"By Land and Air, Students to Detect Crop Diseases with Tech."
                 Cornell Chronicle,
-                news.cornell.edu/stories/2019/07/land-and-air-students-detect-crop-diseases-tech.
+                news.cornell.edu/stories/2019/07/land-and-air-students-detect-crop-diseases-tech.</h6>
               </TextContainer>
             </ContentContainer>
           </Column>
@@ -273,7 +272,7 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Name</figcaption>
+              <figcaption class="figure-caption text-center">Shivani Lal</figcaption>
             </ContentContainer>
           </Column>
           <Column>
@@ -283,7 +282,7 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
+              <figcaption class="figure-caption text-center">Nancy Khosla</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>

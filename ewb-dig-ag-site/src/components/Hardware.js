@@ -15,6 +15,7 @@ import pi from "../assets/pi.jpg";
 import step5 from "../assets/step5.png";
 import step5_NLB_annotations from "../assets/step5_NLB_annotations.png";
 import step6_fungicide from "../assets/step6_fungicide.jpg";
+import styles from './css/hardware.module.css';
 
 import styled from "styled-components";
 import Image from "react-bootstrap/Image";
@@ -64,7 +65,7 @@ function Hardware() {
         <Row>
           <Column>
             <ContentContainer>
-              <TextContainer>
+              <TextContainer className={styles.bodyp1}>
                 The rover build for this project is based off of 
                 <a href="https://opensourcerover.jpl.nasa.gov/#!/home"> the NASA Jet Propulsion Laboratory Open Source Rover 
                 </a>
@@ -80,7 +81,7 @@ function Hardware() {
             </ContentContainer>
           </Column>
           <Column>
-            <ContentContainer>
+            <ContentContainer className={styles.img}>
               <Image width={400} height={250} src={nasa_rover}></Image>
             </ContentContainer>
           </Column>
@@ -90,7 +91,7 @@ function Hardware() {
         <Row>
           <Column>
             <ContentContainer>
-              <TextContainer>
+              <TextContainer className={styles.body}>
                 To assemble our rover, we mostly followed the instructions for
                 the mechanical and electrical build written on the NASA JPL OSR
                 github. However, we removed the LED screen and the Arduino, as
@@ -102,7 +103,7 @@ function Hardware() {
             </ContentContainer>
           </Column>
           <Column>
-            <ContentContainer>
+            <ContentContainer className={styles.img}>
               <Image width={400} height={250} src={rover_image_2}></Image>
             </ContentContainer>
           </Column>
@@ -112,7 +113,7 @@ function Hardware() {
         <Row>
           <Column>
             <ContentContainer>
-              <TextContainer>
+              <TextContainer className={styles.body}>
                 After assembling the rover and completing the electrical wiring,
                 we set up the ROS Noetic operating system on the Raspberry Pi
                 and downloaded the OSR rover code. Make sure that you have the
@@ -124,7 +125,7 @@ function Hardware() {
             </ContentContainer>
           </Column>
           <Column>
-            <ContentContainer>
+            <ContentContainer className={styles.img}>
               <Image width={400} height={250} src={pi}></Image>
             </ContentContainer>
           </Column>
@@ -134,7 +135,7 @@ function Hardware() {
         <Row>
           <Column>
             <ContentContainer>
-              <TextContainer>
+              <TextContainer className={styles.bodyp4}>
                 After making sure the OS was working correctly, we followed the
                 instructions for tuning the parameters on each of the Roboclaw
                 motors. Then, we connected all our sensors and ran sample code
@@ -145,7 +146,7 @@ function Hardware() {
             </ContentContainer>
           </Column>
           <Column>
-            <ContentContainer>
+            <ContentContainer className={styles.img}>
               <Image width={400} height={250} src={step4_rover}></Image>
             </ContentContainer>
           </Column>

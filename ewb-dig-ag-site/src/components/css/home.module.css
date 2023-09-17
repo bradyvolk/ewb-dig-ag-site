@@ -1,0 +1,22 @@
+
+.body {
+    margin-right: 15rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  height: 400px;
+
+}
+
+
+.container:after {
+  content: "";
+   display: table;
+   clear: both;
+}	
