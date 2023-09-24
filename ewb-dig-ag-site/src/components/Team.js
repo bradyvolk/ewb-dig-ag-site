@@ -18,6 +18,7 @@ import nicholasImage from "../assets/Nicholas-modified.png";
 import nithinImage from "../assets/Nithin-modified.png";
 import raginiImage from "../assets/Ragini-modified.png";
 import unknownImage from "../assets/Unknown-modified.png";
+import ShivaniImage from "../assets/Shivani-modified.png"
 import Figure from "react-bootstrap/Figure";
 
 import {
@@ -281,7 +282,7 @@ function Team() {
           <Column>
             <ContentContainer>
               <img
-                src={unknownImage}
+                src={ShivaniImage}
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
