@@ -13,6 +13,7 @@ import jasonImage from "../assets/Jason-modified.png";
 import jessicaImage from "../assets/Jessica-modified.png";
 import juhiImage from "../assets/Juhi-modified.png";
 import nathanImage from "../assets/Nathan-modified.png";
+import mattImage from "../assets/Matt-modified.png";
 import nicholasImage from "../assets/Nicholas-modified.png";
 import nithinImage from "../assets/Nithin-modified.png";
 import raginiImage from "../assets/Ragini-modified.png";
@@ -268,11 +269,13 @@ function Team() {
           <Column>
             <ContentContainer>
               <img
-                src={unknownImage}
+                src={mattImage}
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Matthew Sadowski</figcaption>
+              <figcaption class="figure-caption text-center">
+                Matthew Sadowski
+              </figcaption>
             </ContentContainer>
           </Column>
           <Column>
