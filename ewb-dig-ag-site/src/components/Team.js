@@ -305,7 +305,7 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
+              <figcaption class="figure-caption text-center">Asli Cihangir</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
