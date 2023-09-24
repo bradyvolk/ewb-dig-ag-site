@@ -272,7 +272,17 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Shivani Lal</figcaption>
+              <figcaption class="figure-caption text-center">Matthew Sadowski</figcaption>
+            </ContentContainer>
+          </Column>
+          <Column>
+            <ContentContainer>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Shivani Lal</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
@@ -283,6 +293,58 @@ function Team() {
                 class="figure-img img-fluid rounded-circle"
               />
               <figcaption class="figure-caption text-center">Nancy Khosla</figcaption>{" "}
+            </ContentContainer>
+          </Column>
+          <Column>
+            <ContentContainer>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
+            </ContentContainer>
+          </Column>
+          <Column>
+            <ContentContainer>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
+            </ContentContainer>
+          </Column>
+        </Row>
+        <Row>
+          <Column>
+            <ContentContainer>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Name</figcaption>
+            </ContentContainer>
+          </Column>
+          <Column>
+            <ContentContainer>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Name</figcaption>
+            </ContentContainer>
+          </Column>
+          <Column>
+            <ContentContainer>
+              <img
+                src={unknownImage}
+                alt="missing"
+                class="figure-img img-fluid rounded-circle"
+              />
+              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>

@@ -4,7 +4,6 @@ import Card from "react-bootstrap/Card";
 import { CardContainer } from "./shared/Div.styles";
 import styles from './css/home.module.css';
 
-
 import {
   Row,
   Column,
@@ -16,19 +15,20 @@ import {
 
 function Home() {
   return (
-    <div>
-      <div className="text-center">
+    <div className={styles.overall}>
+      <div className={styles.textCenter}>
       <CardContainer>
         <CarouselContent />
       </CardContainer>
-      <body>
+      <html lang="en">
 
 
-      <h1>Our Mission</h1>
+      <h1 className={styles.title}>Our Mission</h1>
 
       <div className={styles.container}>
         <div className={styles.column}>
-          <h2>The Problem</h2>
+          <h2 className={styles.subtitle}>The Problem</h2>
+          <div className={styles.textJustify}>
           <p>Undetected outbreaks of disease in crops can be devastating for local 
           economies in Sub-Saharan Africa. Northern Leaf Blight (NLB) is an example 
           of one of these diseases that is caused by a specific type of fungus. NLB 
@@ -38,9 +38,11 @@ function Home() {
           control of fungicide deployment. Our goal is to build a non-commercialized, 
           open-source system that can employ deep learning algorithms to detect disease 
           symptoms before the disease spreads.</p>
+          </div>
         </div>
         <div className={styles.column}>
-          <h2>Our Approach</h2> 
+          <h2 className={styles.subtitle}>Our Approach</h2> 
+          <div className={styles.textJustify}>
           <p>To aid farmers, Engineers Without Borders at Cornell is currently building 
             a drone and ground rover in order to assess large plots of crop fields for NLB 
             in real-time. The drone will detect infrared radiation to provide a large aerial 
@@ -49,10 +51,12 @@ function Home() {
             Project will design and implement an autonomous system consisting of a high-throughput 
             Unmanned Aerial Vehicle (UAV) and an Unmanned Ground Vehicle (UGV) that will work 
             side-by-side with farmers to assess levels of crop disease.</p>
+          </div>
         </div>
         <div className={styles.column}>
-          <h2>Our Solution</h2>
-          <p>Initially, the drone (UAV) scans the field taking infrared photos. These infrared 
+          <h2 className={styles.subtitle}>Our Solution</h2>
+          <div className={styles.textJustify}>
+          <p styles={styles.columnnal}>Initially, the drone (UAV) scans the field taking infrared photos. These infrared 
             “birds eye view” photos will indicate areas of possible outbreaks. At each of these 
             locations, the rover (UGV) will take close up images of the maize crop leaves. These 
             images are then run through a machine learning algorithm to detect NLB lesions. Finally, 
@@ -61,11 +65,12 @@ function Home() {
             appropriately address the threat. We believe that once implemented, our proposed system 
             will be the first innovative system to utilize UGVs in parallel with UAVs to detect plant 
             disease, providing an early warning detection system for researchers and farmers.</p>
+          </div>
         </div>
         
       </div>
 
-      </body>
+    </html>
 
       {/* <CardContainer>
         <Card className="text-center">

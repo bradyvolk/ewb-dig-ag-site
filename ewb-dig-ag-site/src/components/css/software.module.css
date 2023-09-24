@@ -1,0 +1,51 @@
+.purpose {
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.title {
+    text-align: center;
+    margin-left: 25 rem;
+}
+
+.bodyp1 {
+    margin-top: 2rem;
+    margin-left: 7rem; 
+    margin-right: -28rem;
+    text-align: justify;
+    
+}
+.bodyp2 {
+    margin-top: 2rem;
+    margin-left: 7rem; 
+    margin-right: -29rem;
+    text-align: justify;
+}
+
+.bodyp3 {
+    margin-top: 1rem;
+    margin-left: 7rem; 
+    margin-right: -26rem;
+    text-align: justify;
+}
+
+
+
+.img1 {
+    margin-left: 5rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+}
+
+.img2 {
+    margin-left: 5rem;
+    margin-right: 10rem;
+    margin-top: 1rem;
+}
+
+.img3 {
+    margin-left: 5rem;
+    margin-right: 10rem;
+    margin-top: 1rem;
+}
+

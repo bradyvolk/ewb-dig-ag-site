@@ -2,11 +2,12 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+import styles from './css/navcontent.module.css';
 
 export default function NavContent() {
   return (
     <div>
-      <Navbar bg="primary" variant="dark">
+      <Navbar className={styles.container} variant="dark">
         <Container>
           <Navbar.Brand href="/">EWB Digital Agriculture</Navbar.Brand>
           <Nav className="me-auto">
