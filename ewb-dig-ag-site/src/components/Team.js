@@ -18,8 +18,9 @@ import nicholasImage from "../assets/Nicholas-modified.png";
 import nithinImage from "../assets/Nithin-modified.png";
 import raginiImage from "../assets/Ragini-modified.png";
 import unknownImage from "../assets/Unknown-modified.png";
-import ShivaniImage from "../assets/Shivani-modified.png"
+import ShivaniImage from "../assets/Shivani-modified.png";
 import AsliImage from "../assets/AsliC-modified.png";
+import NancyImage from "../assets/nancyImage.png";
 import Figure from "react-bootstrap/Figure";
 
 import {
@@ -56,7 +57,7 @@ function Team() {
               <TextContainer>
                 Cornell Engineers Without Borders is a Cornell University
                 project team affiliated with the national Engineers Without
-                Borders Organization. 
+                Borders Organization.
               </TextContainer>
               <TextContainer>
                 The Digital Agriculture team is split into two subteams:
@@ -78,9 +79,11 @@ function Team() {
               </TextContainer>
               <TextContainer>
                 <h6>References</h6>
-                <h6 style ={{ fontSize: 12 }}>"By Land and Air, Students to Detect Crop Diseases with Tech."
-                Cornell Chronicle,
-                news.cornell.edu/stories/2019/07/land-and-air-students-detect-crop-diseases-tech.</h6>
+                <h6 style={{ fontSize: 12 }}>
+                  "By Land and Air, Students to Detect Crop Diseases with Tech."
+                  Cornell Chronicle,
+                  news.cornell.edu/stories/2019/07/land-and-air-students-detect-crop-diseases-tech.
+                </h6>
               </TextContainer>
             </ContentContainer>
           </Column>
@@ -287,17 +290,21 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Shivani Lal</figcaption>{" "}
+              <figcaption class="figure-caption text-center">
+                Shivani Lal
+              </figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
               <img
-                src={unknownImage}
+                src={NancyImage}
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Nancy Khosla</figcaption>{" "}
+              <figcaption class="figure-caption text-center">
+                Nancy Khosla
+              </figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
@@ -317,7 +324,9 @@ function Team() {
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Asli Cihangir</figcaption>{" "}
+              <figcaption class="figure-caption text-center">
+                Asli Cihangir
+              </figcaption>{" "}
             </ContentContainer>
           </Column>
         </Row>
