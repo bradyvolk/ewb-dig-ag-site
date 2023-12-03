@@ -21,6 +21,7 @@ import unknownImage from "../assets/Unknown-modified.png";
 import ShivaniImage from "../assets/Shivani-modified.png";
 import AsliImage from "../assets/AsliC-modified.png";
 import NancyImage from "../assets/nancyImage.png";
+import EshaanImage from "../assets/Eshaan-modified.png";
 import Figure from "react-bootstrap/Figure";
 
 import {
