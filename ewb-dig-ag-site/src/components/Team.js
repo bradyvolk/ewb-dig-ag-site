@@ -335,11 +335,11 @@ function Team() {
           <Column>
             <ContentContainer>
               <img
-                src={unknownImage}
+                src={EshaanImage}
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Name</figcaption>
+              <figcaption class="figure-caption text-center">Eshaan Sharma</figcaption>
             </ContentContainer>
           </Column>
           <Column>
