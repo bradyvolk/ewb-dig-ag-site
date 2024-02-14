@@ -22,6 +22,10 @@ import ShivaniImage from "../assets/Shivani-modified.png";
 import AsliImage from "../assets/AsliC-modified.png";
 import NancyImage from "../assets/nancyImage.png";
 import EshaanImage from "../assets/Eshaan-modified.png";
+import lawrenceImage from "../assets/Lawrence-modified.png";
+import abigailImage from "../assets/Abigail-modified.png";
+import domenicImage from "../assets/Domenic-modified.png";
+import audreyImage from "../assets/Audrey-modified.png";
 import Figure from "react-bootstrap/Figure";
 
 import {
@@ -345,41 +349,41 @@ function Team() {
           <Column>
             <ContentContainer>
               <img
-                src={unknownImage}
+                src={lawrenceImage}
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Name</figcaption>
+              <figcaption class="figure-caption text-center">Lawrence Granda</figcaption>
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
               <img
-                src={unknownImage}
+                src={abigailImage}
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
+              <figcaption class="figure-caption text-center">Abigail Miller</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
               <img
-                src={unknownImage}
+                src={domenicImage}
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
+              <figcaption class="figure-caption text-center">Domenic Fioravanti</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
             <ContentContainer>
               <img
-                src={unknownImage}
+                src={audreyImage}
                 alt="missing"
                 class="figure-img img-fluid rounded-circle"
               />
-              <figcaption class="figure-caption text-center">Name</figcaption>{" "}
+              <figcaption class="figure-caption text-center">Audrey Garon</figcaption>{" "}
             </ContentContainer>
           </Column>
           <Column>
